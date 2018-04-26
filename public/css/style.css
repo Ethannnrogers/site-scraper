@@ -1,0 +1,72 @@
+#nav {
+    position: fixed;
+    right: 35px;
+    color: white;
+}
+
+#nav-title {
+font-size: 40px;
+}
+
+.outline {
+    background-color: #18a2b9;
+    color:white;
+    padding: 0px 8px 1px 8px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.nav-item {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#title {
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    font-family: "Times New Roman", Times, serif;
+}
+#sub-title {
+    color: white;
+    opacity: 0.95;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+}
+
+#banner {
+    background-image: url("../img/news.jpg");
+    background-size: 100%;
+    background-position: center;
+    height: 400px;
+}
+
+#banner-text {
+    margin-top: 50px;
+}
+
+#menu {
+    background-color: rgb(199, 54, 54)!important;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+#note-title {
+    text-align: center;
+    color: rgb(27, 27, 27);
+    padding: 20px;
+}
+
+#see-more {
+    color: white;
+}
+
+.article-pop{
+    margin: 20px 0px 20px 0px;
+}
+
+#newsarticles{
+    font-size: 60px;
+    margin-left: 15px;
+}

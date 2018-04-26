@@ -15,6 +15,9 @@ $("#get-news").on("click", function() {
   $("#wrapper").show();
 })
 
+$("#home-btn").on("click", function() {
+  $("#wrapper").hide();
+})
 
 // Whenever someone clicks a p tag
 $(document).on("click", ".news-title-link", function() {

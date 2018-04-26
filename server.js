@@ -23,6 +23,12 @@ app.use(express.static(__dirname + '/public'));
 
 mongoose.connect("mongodb://localhost/site_scraper");
 
+// Connect to the Mongo DB
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
+mongoose.Promise = Promise;
+mongoose.connect(MONGODB_URI, {});
+
+
 //Routessssssss
 app.get("/scrape", function(req, res) {
   //uhh idk what this does

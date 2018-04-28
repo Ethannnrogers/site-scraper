@@ -10,7 +10,7 @@ var logger = require("morgan");
 
 
 var db = require("./models");
-var PORT = 5000;
+var PORT = process.env.PORT || 3000;
 const app = express();
 
 // Use morgan logger for logging requests

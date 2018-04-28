@@ -31,6 +31,13 @@ mongoose.connect(MONGODB_URI, {});
 
 //Routessssssss
 app.get("/scrape", function(req, res) {
+
+  // if (req) {
+  //   db.Article.remove({}, function (err) {
+  //     console.log("dropped Articles");
+  //   })
+  // }
+  
   //uhh idk what this does
   axios.get("https://www.nytimes.com/").then(function(response) {
     //load something to cheerio and save it as $

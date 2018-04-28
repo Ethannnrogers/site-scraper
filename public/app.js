@@ -46,9 +46,9 @@ $(document).on("click", ".news-title-link", function() {
         // If there's a note in the article
         if (data.note) {
           // Place the title of the note in the title input
-          $("#titleinput").val(data.note.title);
+          $("#titleinput").append(data.note.title);
           // Place the body of the note in the body textarea
-          $("#bodyinput").val(data.note.body);
+          $("#bodyinput").append(data.note.body);
         }
       });
   });
